@@ -1,27 +1,23 @@
-# Math Bot with Tkinter GUI
-A simple desktop application that allows users to input mathematical questions and get answers using a chatbot interface.
-
-In this repository, you'll primarily find the chatbot's code written in Python. However, on my website, Three Letter Acronym, I've also developed a version of the chatbot primarily using JavaScript, seamlessly integrated into the site's functionality. To experience this JavaScript-based chatbot version, please visit the following link: [Homepage | Three Letter Acronym](https://www.three-letter-acronym.com/).
+# Math Bot
+A simple web-based chatbot that can solve various mathematical problems. Users can input math expressions, and the bot will provide the solution.
 
 ## Features
-- Arithmetic operations: addition, subtraction, multiplication, division.
-- Trigonometric functions: sin, cos, tan, etc.
-- Logarithmic and exponential operations.
-- Percentage calculations.
-- Exponents and roots.
+- Arithmetic operations: addition, subtraction, multiplication, division
+- Trigonometric functions: sin, cos, tan, etc
+- Logarithmic and exponential operations
+- Percentage calculations
+- Exponents and roots
 
-## Prerequisites
-- Python (version 3.x recommended)
-- Tkinter (usually comes pre-installed with Python)
+## Usage
+1. Clone the respository
+2. Open the `math-chatbot.html` file in your preferred web browser
+3. Enter your math question in the provided input area
+4. Click the "Ask" button
+5. The bot will parse your question and provide an appropriate mathematical solution
 
-## Installation and Usage
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/sfajors/math-chatbot.git
-2. Navigate to project directory
-   ```bash
-   cd math-bot-tkinter
-3. Run the application
-   ```bash
-   python math-bot-app.py
-(Note: Depending on your system setup, you might need to use python3 instead of python.)
+## Customization
+- The visual style can be modified in the `math-chatbot.css` file
+- For extending the bot's functionality or adjusting the parsing logic, edit the `math-chatbot.js` file.
+
+## License
+MIT
